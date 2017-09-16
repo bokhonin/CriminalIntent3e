@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
+import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -41,6 +43,25 @@ public class CrimeListFragment extends Fragment {
         if (mAdapter == null) {
             mAdapter = new CrimeAdapter(crimes);
             mCrimeRecyclerView.setAdapter(mAdapter);
+
+            // Моя добавка разделителя между элементами списка
+            LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
+
+            DividerItemDecoration itemDecoration = new DividerItemDecoration(
+                    mCrimeRecyclerView.getContext(),
+                    layoutManager.getOrientation()
+            );
+
+            itemDecoration.setDrawable(
+                    ContextCompat.getDrawable(
+                            CrimeListFragment.this.getActivity(),
+                            R.drawable.divider_white
+                    )
+            );
+
+            mCrimeRecyclerView.addItemDecoration(
+                    itemDecoration
+            );
         }
         else {
             mAdapter.notifyDataSetChanged();
