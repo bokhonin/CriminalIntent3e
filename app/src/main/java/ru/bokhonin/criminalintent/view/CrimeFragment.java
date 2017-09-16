@@ -1,6 +1,5 @@
-package ru.bokhonin.criminalintent;
+package ru.bokhonin.criminalintent.view;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -14,6 +13,9 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
+import ru.bokhonin.criminalintent.R;
+import ru.bokhonin.criminalintent.data.Crime;
+import ru.bokhonin.criminalintent.data.CrimeLab;
 
 import java.util.UUID;
 

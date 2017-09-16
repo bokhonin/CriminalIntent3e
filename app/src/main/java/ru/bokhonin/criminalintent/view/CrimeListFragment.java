@@ -1,4 +1,4 @@
-package ru.bokhonin.criminalintent;
+package ru.bokhonin.criminalintent.view;
 
 import android.content.Intent;
 import android.support.annotation.Nullable;
@@ -9,7 +9,11 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.*;
+import android.widget.ImageView;
+import android.widget.TextView;
+import ru.bokhonin.criminalintent.R;
+import ru.bokhonin.criminalintent.data.Crime;
+import ru.bokhonin.criminalintent.data.CrimeLab;
 
 import java.util.List;
 

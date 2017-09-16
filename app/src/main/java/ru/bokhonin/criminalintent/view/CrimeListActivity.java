@@ -1,4 +1,4 @@
-package ru.bokhonin.criminalintent;
+package ru.bokhonin.criminalintent.view;
 
 import android.support.v4.app.Fragment;
 

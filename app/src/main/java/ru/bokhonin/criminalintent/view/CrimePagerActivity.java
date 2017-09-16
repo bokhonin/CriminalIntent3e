@@ -1,4 +1,4 @@
-package ru.bokhonin.criminalintent;
+package ru.bokhonin.criminalintent.view;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,6 +8,9 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import ru.bokhonin.criminalintent.R;
+import ru.bokhonin.criminalintent.data.Crime;
+import ru.bokhonin.criminalintent.data.CrimeLab;
 
 import java.util.List;
 import java.util.UUID;

@@ -1,4 +1,4 @@
-package ru.bokhonin.criminalintent;
+package ru.bokhonin.criminalintent.view;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.view.LayoutInflater;
 import android.view.View;
+import ru.bokhonin.criminalintent.R;
 //import android.support.v7.app.AlertDialog;
 
 public class DatePickerFragment extends DialogFragment{

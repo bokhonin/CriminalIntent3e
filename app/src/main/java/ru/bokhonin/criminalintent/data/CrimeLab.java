@@ -1,4 +1,4 @@
-package ru.bokhonin.criminalintent;
+package ru.bokhonin.criminalintent.data;
 
 import android.content.Context;
 
